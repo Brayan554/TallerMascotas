@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "TallerMascotas",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon backend/index.js"
+  },
+  "keywords": [
+    "TallerMascotas"
+  ],
+  "author": "BrayanZanabria",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
